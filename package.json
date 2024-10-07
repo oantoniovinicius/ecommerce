@@ -5,6 +5,7 @@
     "build": "turbo build",
     "dev": "npm run dev", 
     "lint": "turbo lint",
+    "start": "next start",  
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
