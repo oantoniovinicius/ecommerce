@@ -1,81 +1,36 @@
-# Turborepo starter
+# E-Commerce - Gam3r.store
 
-This is an official starter Turborepo.
+Essa aplicaçao foi desenvolvida durante o curso elaborado pela Cod3r, pela Formaçao DEV, com o intuito de iniciar meus aprendizados em React Native, NextJS, NestJS e NodeJs.
+Alem disso, serviu para aprimorar meus conhecimentos em logica de programacao e banco de dados, com a utilizacao do banco de dados PostgreSQL. 
+O curso teve duracao de 6h com emissao de certificado, disponivel em: https://escola.formacao.dev/certificado/c268a87a-0f16-4009-bb43-968c176da3d9
 
-## Using this example
+## Funcionalidades
 
-Run the following command:
+A aplicacao simula um E-Commerce com produtos de tecnologia, onde é exibido o valor do produto, o nome do produto, suas especificações e seu valor promocional. Além disso, suas opções de parcelamento na tela principal.
+Ao clicar em um produto é possível visualizar mais informações sobre o produto, tais como a nota, mais especificações e uma informação em destaque sobre o produto, assim como um registro sobre o histórico de seu valor,
+informando se o preço do produto é o mais baixo, preço médio ou o maior valor dentro de um determinado período. Ademais, também é anexado um vídeo review sobre o produto na página.
+A aplicação também conta com componentes visuais, tais como a exibição de um carrinho no canto superior direito e um rodapé ao final da página.
 
-```sh
-npx create-turbo@latest
-```
 
-## What's inside?
+## Execução:
 
-This Turborepo includes the following packages/apps:
+Certifique-se de ter todas as dependências instalas e então execute o seguinte comando na raiz do projeto:
+"npm run dev"
 
-### Apps and Packages
+Logo após a execução, acesse o http://localhost:3000.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+## Aplicação em execução:
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+### Tela Principal:
+![Layout](https://github.com/oantoniovinicius/ecommerce/blob/main/execution.gif)
 
-### Utilities
+### Tela específica:
+![Layout](https://github.com/oantoniovinicius/ecommerce/blob/main/product.gif)
 
-This Turborepo has some additional tools already setup for you:
+## Contato
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+Você pode me encontrar no LinkedIn (https://www.linkedin.com/in/antoniovinicius/) ou enviar um e-mail para devantoniovinicius@gmail.com.
 
-### Build
+## Licença
 
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+Este projeto está licenciado sob a MIT License.
