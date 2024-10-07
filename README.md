@@ -22,10 +22,10 @@ Logo após a execução, acesse o http://localhost:3000.
 ## Aplicação em execução:
 
 ### Tela Principal:
-![Layout](https://github.com/oantoniovinicius/ecommerce/blob/main/execution.gif)
+![Layout](https://github.com/oantoniovinicius/ecommerce/blob/master/execution.gif)
 
 ### Tela específica:
-![Layout](https://github.com/oantoniovinicius/ecommerce/blob/main/product.gif)
+![Layout](https://github.com/oantoniovinicius/ecommerce/blob/master/product.gif)
 
 ## Contato
 
