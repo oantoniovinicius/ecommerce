@@ -1,9 +1,9 @@
 # E-Commerce - Gam3r.store
 
-Essa aplicaçao foi desenvolvida durante o curso elaborado pela Cod3r, pela Formaçao DEV, com o intuito de iniciar meus aprendizados em React Native, NextJS, NestJS e NodeJs.
-Alem disso, serviu para aprimorar meus conhecimentos em logica de programacao e banco de dados, com a utilizacao do banco de dados PostgreSQL. 
+Essa aplicaçao foi desenvolvida durante o curso elaborado pela Cod3r, pela Formaçao DEV, com o intuito de iniciar meus aprendizados em React, NextJS, NestJS e NodeJs e também em Typescript.
+Alem disso, serviu para aprimorar meus conhecimentos em lógica de programação e banco de dados, com a utilizacao do banco de dados PostgreSQL. 
 
-O curso teve duracao de 6h com emissao de certificado, disponivel em: https://escola.formacao.dev/certificado/c268a87a-0f16-4009-bb43-968c176da3d9
+O curso teve duracao de 6h com emissão de certificado, disponivel em: https://escola.formacao.dev/certificado/c268a87a-0f16-4009-bb43-968c176da3d9
 
 ## Funcionalidades
 
